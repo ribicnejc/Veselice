@@ -23,6 +23,7 @@ $key = array_shift($request);
 if($all == "getAll"){
     switch ($specific){
         case "place":
+            getByPlace($key);
             break;
         case "day":
             break;
