@@ -26,8 +26,10 @@ if($all == "getAll"){
             getByPlace($key);
             break;
         case "day":
+            getByDay($key);
             break;
         case "date":
+            getByDate($key);
             break;
         default:
             getAll();

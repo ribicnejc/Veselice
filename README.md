@@ -53,7 +53,7 @@ Respond in JSON:
 TODO
 ````
 ### Specific day
-Request list of parties on specific **day** `saturday, sunday,...`:
+Request list of parties on specific **day** `petek, sobota, etc..`:
 ````
 http://nejcribic.com/veselice_api/myApi.php?getAll/day/{$day}
 ````
