@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('', '', '', '');
+$link = mysqli_connect('localhost', 'nejcribic_nejc', '', 'nejcribic_test');
 mysqli_set_charset($link, 'utf8');
 $table = "elements";
 

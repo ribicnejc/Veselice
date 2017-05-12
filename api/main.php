@@ -164,7 +164,8 @@ function getByDate($date)
 
         $tmp = $words[1];
         echo $tmp;
-
+//TODO check for out of bounds
+        //http://localhost:63342/firstApi/api/myApi.php?getAll/date/2.6.2017
         $month1 = $months[$tmp];
         $year1 = $words[2];
         $dateIs = $day1.$month1.".".$year1;
