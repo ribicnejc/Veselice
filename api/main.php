@@ -161,17 +161,17 @@ function getByDate($date)
         $words = explode(", ", $item["date"]);
         $words = explode(" ", $words[1]);
         $day1 = $words[0];
-
+        echo $day1 . " " . $words[1] . " " . $words[2] . "|||||||||";
         $tmp = $words[1];
-        echo $tmp;
+        //echo $tmp;
 //TODO check for out of bounds
         //http://localhost:63342/firstApi/api/myApi.php?getAll/date/2.6.2017
-        $month1 = $months[$tmp];
-        $year1 = $words[2];
-        $dateIs = $day1.$month1.".".$year1;
-        if($dateIs == $date){
-        array_push($byDayArray, $item);
-        }
+//        $month1 = $months["".$tmp.""];
+//        $year1 = $words[2];
+//        $dateIs = $day1.$month1.".".$year1;
+//        if($dateIs == $date){
+//        array_push($byDayArray, $item);
+//        }
     }
     $json = json_encode($byDayArray, JSON_UNESCAPED_UNICODE);
     echo $json;
