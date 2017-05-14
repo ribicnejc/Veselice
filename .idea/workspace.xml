@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a127f0a-955c-4f10-bcff-25038d9671d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/clear_database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/database_connect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/fill_database.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/update_database.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/main.php" afterPath="$PROJECT_DIR$/api/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/myApi.php" afterPath="$PROJECT_DIR$/api/myApi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,44 +47,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2486">
-              <caret line="113" column="46" lean-forward="false" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+            <state relative-caret-position="506">
+              <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myApi.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myApi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/myApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update_database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/update_database.php">
+      <file leaf-file-name="fill_database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/fill_database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <marker date="1494578620705" expanded="true" signature="194:214" ph="insert into ``... " />
-                <marker date="1494578620705" expanded="true" signature="194:225" ph="insert into `${$table}`... " />
+                <marker date="1494768753513" expanded="true" signature="1068:1112" ph="INSERT INTO ${$table}... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_html_dom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/simple_html_dom.php">
+      <file leaf-file-name="clear_database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/clear_database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+            <state relative-caret-position="198">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1494766073052" expanded="true" signature="48:60" ph="DELETE FROM " />
+                <marker date="1494766073052" expanded="true" signature="48:68" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database_connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/database_connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -116,10 +131,14 @@
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/myApi.php" />
         <option value="$PROJECT_DIR$/api/simple_html_dom.php" />
-        <option value="$PROJECT_DIR$/api/update_database.php" />
-        <option value="$PROJECT_DIR$/api/myApi.php" />
         <option value="$PROJECT_DIR$/api/main.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/api/update_database.php" />
+        <option value="$PROJECT_DIR$/api/database.php" />
+        <option value="$PROJECT_DIR$/api/clear_database.php" />
+        <option value="$PROJECT_DIR$/api/myApi.php" />
+        <option value="$PROJECT_DIR$/api/fill_database.php" />
+        <option value="$PROJECT_DIR$/api/database_connect.php" />
       </list>
     </option>
   </component>
@@ -372,7 +391,7 @@
       <workItem from="1494510940593" duration="723000" />
       <workItem from="1494527839320" duration="3354000" />
       <workItem from="1494577578753" duration="4847000" />
-      <workItem from="1494758533981" duration="2436000" />
+      <workItem from="1494758533981" duration="9536000" />
     </task>
     <task id="LOCAL-00001" summary="API corrections">
       <created>1489092407459</created>
@@ -465,11 +484,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494698979594</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Main api and docs">
+      <created>1494761437282</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1494761437282</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52480000" />
+    <option name="totallyTimeSpent" value="59580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,7 +510,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -518,7 +544,8 @@
     <MESSAGE value="database update script" />
     <MESSAGE value="get by place implemented" />
     <MESSAGE value="get by day implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="get by day implemented" />
+    <MESSAGE value="Main api and docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main api and docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,9 +554,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php" />
-    <entry file="file://$PROJECT_DIR$/api.php" />
-    <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/api.php" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/api.php" />
@@ -585,29 +609,10 @@
     <entry file="file://$PROJECT_DIR$/parsed.html" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/api.php" />
-    <entry file="file://$PROJECT_DIR$/api/simple_html_dom.php">
+    <entry file="file://$PROJECT_DIR$/api/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/update_database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1494578620705" expanded="true" signature="194:214" ph="insert into ``... " />
-            <marker date="1494578620705" expanded="true" signature="194:225" ph="insert into `${$table}`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/myApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -625,8 +630,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2486">
-          <caret line="113" column="46" lean-forward="false" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        <state relative-caret-position="506">
+          <caret line="104" column="28" lean-forward="false" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="79" column="12" lean-forward="false" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/clear_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1494766073052" expanded="true" signature="48:60" ph="DELETE FROM " />
+            <marker date="1494766073052" expanded="true" signature="48:68" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/fill_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1494768753513" expanded="true" signature="1068:1112" ph="INSERT INTO ${$table}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/myApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
         </state>
       </provider>
