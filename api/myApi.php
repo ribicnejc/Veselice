@@ -2,7 +2,8 @@
 include ('main.php');
 $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['QUERY_STRING'],'/'));
-
+//TODO fix api to show name, place and id
+//TODO
 $all = array_shift($request);
 $specific = array_shift($request);
 $key = array_shift($request);
