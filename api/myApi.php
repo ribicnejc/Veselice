@@ -2,8 +2,9 @@
 include ('main.php');
 $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['QUERY_STRING'],'/'));
-//TODO fix api to show name, place and id
-//TODO
+//TODO fix api to show name, place
+//Todo show errors
+//todo
 $all = array_shift($request);
 $specific = array_shift($request);
 $key = array_shift($request);
@@ -23,7 +24,5 @@ if($all == "getAll"){
             getAll();
             break;
     }
-    //require ('clear_database.php');
-    //require ('fill_database.php');
 }
 //http://gardenestudio.com.br/index.php

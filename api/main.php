@@ -25,7 +25,10 @@ function mainArray()
                 } else {
                     $t = null;
                     $t["name"] = $elt;
+                    $href_id = explode("event_id=", $value);
+                    if ($value[0] == "#")  continue;
                     $t["href"] = $value;
+                    $t["id"] = $href_id[1];
                     array_push($perday, $t);
                 }
             }
