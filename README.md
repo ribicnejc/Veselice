@@ -10,7 +10,7 @@ This is api, which parse all data from web page www.veselica.info, and saves all
 ### Get all parties
 Request list of **all** parties:
 ````
-http://nejcribic.com/veselice_api/myApi.php?getAll/
+http://dev.nejcribic.com/veselice_api/myApi.php?getAll/
 ````
 Respond in JSON:
 ````
@@ -46,7 +46,7 @@ Respond in JSON:
 ### Specific place
 Request list of parties in specific **place**:
 ````
-http://nejcribic.com/veselice_api/myApi.php?getAll/place/{$place}
+http://dev.nejcribic.com/veselice_api/myApi.php?getAll/place/{$place}
 ````
 Respond in JSON:
 ````
@@ -65,7 +65,7 @@ Respond in JSON:
 ### Specific day
 Request list of parties on specific **day** `petek, sobota, etc..`:
 ````
-http://nejcribic.com/veselice_api/myApi.php?getAll/day/{$day}
+http://dev.nejcribic.com/veselice_api/myApi.php?getAll/day/{$day}
 ````
 Respond in JSON:
 ````
@@ -92,7 +92,7 @@ Respond in JSON:
 ### Specific date
 Request list of parties on specific **date** `2.6.2017`:
 ````
-http://nejcribic.com/veselice_api/myApi.php?getAll/date/{$date}
+http://dev.nejcribic.com/veselice_api/myApi.php?getAll/date/{$date}
 ````
 Respond in JSON:
 ````
