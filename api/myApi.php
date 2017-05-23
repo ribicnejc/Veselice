@@ -1,5 +1,6 @@
 <?php
 include ('main.php');
+include ('more_info.php');
 $method = $_SERVER['REQUEST_METHOD'];
 $request = explode('/', trim($_SERVER['QUERY_STRING'],'/'));
 //TODO fix api to show name, place
@@ -24,5 +25,8 @@ if($all == "getAll"){
             getAll();
             break;
     }
+}else if($all == "moreInfo"){
+    $link = '/'.$specific .'/'. $key;
+    moreInfo($link);
 }
 //http://gardenestudio.com.br/index.php
