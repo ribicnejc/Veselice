@@ -112,3 +112,19 @@ Respond in JSON:
     }
 ]
 ````
+### Specific party
+Request info about specific party with **href** `/page/veselice-2017?Jezica_Ljubljana-Skupina_Gadi;block_id=4797;subcmd=view_event;event_id=3787`:
+````
+http://dev.nejcribic.com/veselice_api/myApi.php?moreInfo/page/veselice-2017?Jezica_Ljubljana-Skupina_Gadi;block_id=4797;subcmd=view_event;event_id=3787
+````
+Respond in JSON:
+````
+{
+    title: "Veselica: Ježica, Ljubljana - Skupina Gadi",
+    date: "Sobota, 27. maj 2017",
+    actors: "Skupina Gadi",
+    location: "Ježica, Ljubljana",
+    region: " Regija: Ljubljanska [Več iz te regije] ",
+    about: " PGD Ježica vas vabi na tradicionalno veliko vrtno veselico od 18. ure naprej. Zabavali vas bodo fantje s skupine Gadi. Veselica bo pod velikim šotorom, za hrano in pijačo pa bomo poskrbeli gasilci PGD Ježica. V neposredni bližini prireditvenega šotora bo zagotovljeno parkirišče. LEPO VABLJENI! "
+}
+````
