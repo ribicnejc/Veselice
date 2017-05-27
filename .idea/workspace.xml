@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a127f0a-955c-4f10-bcff-25038d9671d0" name="Default" comment="Youtube links added">
+    <list default="true" id="8a127f0a-955c-4f10-bcff-25038d9671d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/more_info.php" afterPath="$PROJECT_DIR$/api/more_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/main.php" afterPath="$PROJECT_DIR$/api/main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="69">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding>
                 <element signature="n#getAll#0;n#!!top" expanded="false" />
               </folding>
@@ -133,10 +132,10 @@
         <option value="$PROJECT_DIR$/api/clear_database.php" />
         <option value="$PROJECT_DIR$/api/fill_database.php" />
         <option value="$PROJECT_DIR$/api/database_connect.php" />
-        <option value="$PROJECT_DIR$/api/main.php" />
         <option value="$PROJECT_DIR$/api/myApi.php" />
         <option value="$PROJECT_DIR$/api/more_info.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/api/main.php" />
       </list>
     </option>
   </component>
@@ -398,7 +397,7 @@
       <workItem from="1494940411496" duration="9796000" />
       <workItem from="1495087494211" duration="2934000" />
       <workItem from="1495547151432" duration="10193000" />
-      <workItem from="1495900884552" duration="6578000" />
+      <workItem from="1495900884552" duration="6597000" />
     </task>
     <task id="LOCAL-00001" summary="API corrections">
       <created>1489092407459</created>
@@ -540,11 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495569009236</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Youtube links added">
+      <created>1495913490604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1495913490604</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89622000" />
+    <option name="totallyTimeSpent" value="89641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="48" />
-          <folding>
-            <element signature="n#getAll#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/myApi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -755,6 +751,16 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="n#getAll#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

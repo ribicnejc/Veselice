@@ -49,6 +49,7 @@ function getByPlace($placeQuery)
 {
     if($placeQuery == "") $placeQuery = " ";
     //TODO send and error out
+
     $main = mainArray();
     $main2 = array();
     foreach ($main as $item) {
