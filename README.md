@@ -126,5 +126,10 @@ Respond in JSON:
     location: "Ježica, Ljubljana",
     region: " Regija: Ljubljanska [Več iz te regije] ",
     about: " PGD Ježica vas vabi na tradicionalno veliko vrtno veselico od 18. ure naprej. Zabavali vas bodo fantje s skupine Gadi. Veselica bo pod velikim šotorom, za hrano in pijačo pa bomo poskrbeli gasilci PGD Ježica. V neposredni bližini prireditvenega šotora bo zagotovljeno parkirišče. LEPO VABLJENI! "
+    videos: [
+        "am5ySIC4eSk",
+        "X4Vxy08OvDM",
+        "ov-IduovXHU"
+    ]
 }
 ````

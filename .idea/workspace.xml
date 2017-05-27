@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a127f0a-955c-4f10-bcff-25038d9671d0" name="Default" comment="">
+    <list default="true" id="8a127f0a-955c-4f10-bcff-25038d9671d0" name="Default" comment="Youtube links added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/myApi.php" afterPath="$PROJECT_DIR$/api/myApi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/more_info.php" afterPath="$PROJECT_DIR$/api/more_info.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="417">
-                <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+              <first_editor relative-caret-position="403">
+                <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -47,12 +47,10 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="56" />
+            <state relative-caret-position="245">
+              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="48" />
               <folding>
                 <element signature="n#getAll#0;n#!!top" expanded="false" />
-                <element signature="n#getByDay#0;n#!!top" expanded="false" />
-                <element signature="n#getByDate#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -61,8 +59,8 @@
       <file leaf-file-name="myApi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/myApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="487">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -71,21 +69,9 @@
       <file leaf-file-name="more_info.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/more_info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="1188">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fill_database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/fill_database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding>
-                <marker date="1494768753513" expanded="true" signature="1068:1112" ph="INSERT INTO ${$table}... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +134,8 @@
         <option value="$PROJECT_DIR$/api/fill_database.php" />
         <option value="$PROJECT_DIR$/api/database_connect.php" />
         <option value="$PROJECT_DIR$/api/main.php" />
-        <option value="$PROJECT_DIR$/api/more_info.php" />
         <option value="$PROJECT_DIR$/api/myApi.php" />
+        <option value="$PROJECT_DIR$/api/more_info.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -165,9 +151,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php_interpeter_5.6.30" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -184,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Changed Files">
           <PATH>
@@ -223,6 +209,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -410,7 +397,8 @@
       <workItem from="1494758533981" duration="10077000" />
       <workItem from="1494940411496" duration="9796000" />
       <workItem from="1495087494211" duration="2934000" />
-      <workItem from="1495547151432" duration="8317000" />
+      <workItem from="1495547151432" duration="10193000" />
+      <workItem from="1495900884552" duration="6578000" />
     </task>
     <task id="LOCAL-00001" summary="API corrections">
       <created>1489092407459</created>
@@ -545,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495568231556</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Doca">
+      <created>1495569009236</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1495569009236</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81168000" />
+    <option name="totallyTimeSpent" value="89622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,16 +556,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22964509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114583336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -623,7 +618,9 @@
     <MESSAGE value="Readme" />
     <MESSAGE value="Code polish" />
     <MESSAGE value="More info API" />
-    <option name="LAST_COMMIT_MESSAGE" value="More info API" />
+    <MESSAGE value="Doca" />
+    <MESSAGE value="Youtube links added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Youtube links added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/fill_database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
+        <state relative-caret-position="805">
           <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
           <folding>
             <marker date="1494768753513" expanded="true" signature="1068:1112" ph="INSERT INTO ${$table}... " />
@@ -726,28 +723,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="56" />
+        <state relative-caret-position="245">
+          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="48" />
           <folding>
             <element signature="n#getAll#0;n#!!top" expanded="false" />
-            <element signature="n#getByDay#0;n#!!top" expanded="false" />
-            <element signature="n#getByDate#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/more_info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/myApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="487">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/more_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -755,8 +750,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="417">
-            <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <first_editor relative-caret-position="403">
+            <caret line="131" column="8" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
