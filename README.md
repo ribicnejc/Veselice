@@ -127,9 +127,21 @@ Respond in JSON:
     region: " Regija: Ljubljanska [Več iz te regije] ",
     about: " PGD Ježica vas vabi na tradicionalno veliko vrtno veselico od 18. ure naprej. Zabavali vas bodo fantje s skupine Gadi. Veselica bo pod velikim šotorom, za hrano in pijačo pa bomo poskrbeli gasilci PGD Ježica. V neposredni bližini prireditvenega šotora bo zagotovljeno parkirišče. LEPO VABLJENI! "
     videos: [
-        "am5ySIC4eSk",
-        "X4Vxy08OvDM",
-        "ov-IduovXHU"
+        {
+            type: "video",
+            provider_url: "https://www.youtube.com/",
+            thumbnail_url: "https://i.ytimg.com/vi/am5ySIC4eSk/hqdefault.jpg",
+            thumbnail_height: 360,
+            author_url: "https://www.youtube.com/user/anzy19",
+            title: "Skupina Gadi-Moja je, moja bo!",
+            thumbnail_width: 480,
+            width: 480,
+            html: "",
+            provider_name: "YouTube",
+            height: 270,
+            author_name: "Anže Zavrl",
+            version: "1.0"
+        }
     ]
 }
 ````

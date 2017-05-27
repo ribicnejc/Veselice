@@ -43,15 +43,56 @@ function moreInfo($link)
         foreach ($content->find('iframe') as $video) {
             $href = $video->src;
             if (preg_match('/youtube\.com\/watch\?v=([^\&\?\/]+)/', $href, $id)) {
-                array_push($videos, $id[1]);
+                $url2 = "http://www.youtube.com/watch?v=" . $id[1];
+                $youtube = "http://www.youtube.com/oembed?url=" . $url2 . "&format=json";
+                $curl = curl_init($youtube);
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                $return = curl_exec($curl);
+                curl_close($curl);
+                $array = json_decode($return,TRUE);
+                $array["html"] = "";
+                array_push($videos, $array);
             } else if (preg_match('/youtube\.com\/embed\/([^\&\?\/]+)/', $href, $id)) {
-                array_push($videos, $id[1]);
+                $url2 = "http://www.youtube.com/watch?v=" . $id[1];
+                $youtube = "http://www.youtube.com/oembed?url=" . $url2 . "&format=json";
+                $curl = curl_init($youtube);
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                $return = curl_exec($curl);
+                curl_close($curl);
+                $array = json_decode($return,TRUE);
+                $array["html"] = "";
+                array_push($videos, $array);
             } else if (preg_match('/youtube\.com\/v\/([^\&\?\/]+)/', $href, $id)) {
-                array_push($videos, $id[1]);
+
+                $url2 = "http://www.youtube.com/watch?v=" . $id[1];
+                $youtube = "http://www.youtube.com/oembed?url=" . $url2 . "&format=json";
+                $curl = curl_init($youtube);
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                $return = curl_exec($curl);
+                curl_close($curl);
+                $array = json_decode($return,TRUE);
+                $array["html"] = "";
+                array_push($videos, $array);
             } else if (preg_match('/youtu\.be\/([^\&\?\/]+)/', $href, $id)) {
-                array_push($videos, $id[1]);
-            } else if (preg_match('/youtube\.com\/verify_age\?next_url=\/watch%3Fv%3D([^\&\?\/]+)/', $url, $id)) {
-                array_push($videos, $id[1]);
+                $url2 = "http://www.youtube.com/watch?v=" . $id[1];
+                $youtube = "http://www.youtube.com/oembed?url=" . $url2 . "&format=json";
+                $curl = curl_init($youtube);
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                $return = curl_exec($curl);
+                curl_close($curl);
+                $array = json_decode($return,TRUE);
+                $array["html"] = "";
+                array_push($videos, $array);
+            } else if (preg_match('/youtube\.com\/verify_age\?next_url=\/watch%3Fv%3D([^\&\?\/]+)/', $href, $id)) {
+                $url2 = "http://www.youtube.com/watch?v=" . $id[1];
+                $youtube = "http://www.youtube.com/oembed?url=" . $url2 . "&format=json";
+                $curl = curl_init($youtube);
+                curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                $return = curl_exec($curl);
+                curl_close($curl);
+                $array = json_decode($return,TRUE);
+                $array["html"] = "";
+                array_push($videos, $array);
             }
         }
     }
