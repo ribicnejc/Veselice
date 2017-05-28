@@ -13,6 +13,7 @@ function moreInfo($link)
     $place = "";
     $region = "";
     $about = "";
+    $idOfLink = explode("event_id=", $url);
     $videos = array();
     foreach ($html->find('td#content') as $content) {
         foreach ($content->find('table tbody tr td h1') as $tit) {
@@ -102,6 +103,7 @@ function moreInfo($link)
     $place = strip_tags($place, 'h2');
     $region = strip_tags($region, 'aside');
     $about = strip_tags($about, 'p');
+    $tmp["id"] = (int)$idOfLink[1];
     $tmp["title"] = $title;
     $tmp["date"] = $date;
     $tmp["actors"] = $actors;
