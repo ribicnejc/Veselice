@@ -50,7 +50,7 @@ function moreInfo($link)
                 $return = curl_exec($curl);
                 curl_close($curl);
                 $array = json_decode($return,TRUE);
-                $array["html"] = "";
+                $array["html"] = $url2;;
                 array_push($videos, $array);
             } else if (preg_match('/youtube\.com\/embed\/([^\&\?\/]+)/', $href, $id)) {
                 $url2 = "http://www.youtube.com/watch?v=" . $id[1];
@@ -60,7 +60,7 @@ function moreInfo($link)
                 $return = curl_exec($curl);
                 curl_close($curl);
                 $array = json_decode($return,TRUE);
-                $array["html"] = "";
+                $array["html"] = $url2;
                 array_push($videos, $array);
             } else if (preg_match('/youtube\.com\/v\/([^\&\?\/]+)/', $href, $id)) {
 
@@ -71,7 +71,7 @@ function moreInfo($link)
                 $return = curl_exec($curl);
                 curl_close($curl);
                 $array = json_decode($return,TRUE);
-                $array["html"] = "";
+                $array["html"] = $url2;
                 array_push($videos, $array);
             } else if (preg_match('/youtu\.be\/([^\&\?\/]+)/', $href, $id)) {
                 $url2 = "http://www.youtube.com/watch?v=" . $id[1];
@@ -81,7 +81,7 @@ function moreInfo($link)
                 $return = curl_exec($curl);
                 curl_close($curl);
                 $array = json_decode($return,TRUE);
-                $array["html"] = "";
+                $array["html"] = $url2;
                 array_push($videos, $array);
             } else if (preg_match('/youtube\.com\/verify_age\?next_url=\/watch%3Fv%3D([^\&\?\/]+)/', $href, $id)) {
                 $url2 = "http://www.youtube.com/watch?v=" . $id[1];
@@ -91,7 +91,7 @@ function moreInfo($link)
                 $return = curl_exec($curl);
                 curl_close($curl);
                 $array = json_decode($return,TRUE);
-                $array["html"] = "";
+                $array["html"] = $url2;
                 array_push($videos, $array);
             }
         }
