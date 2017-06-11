@@ -10,7 +10,7 @@ This is api, which parse all data from web page www.veselica.info, and saves all
 ### Get all parties
 Request list of **all** parties:
 ````
-http://dev.nejcribic.com/veselice_api/myApi.php?getAll/
+http://api.nejcribic.com/veselica/myApi.php?getAll&appid={$apikey}
 ````
 Respond in JSON:
 ````
@@ -46,7 +46,7 @@ Respond in JSON:
 ### Specific place
 Request list of parties in specific **place**:
 ````
-http://dev.nejcribic.com/veselice_api/myApi.php?getAll/place/{$place}
+http://api.nejcribic.com/veselica/myApi.php?getAll/place/{$place}&appid={$apikey}
 ````
 Respond in JSON:
 ````
@@ -65,7 +65,7 @@ Respond in JSON:
 ### Specific day
 Request list of parties on specific **day** `petek, sobota, etc..`:
 ````
-http://dev.nejcribic.com/veselice_api/myApi.php?getAll/day/{$day}
+http://api.nejcribic.com/veselica/myApi.php?getAll/day/{$day}&appid={$apikey}
 ````
 Respond in JSON:
 ````
@@ -92,7 +92,7 @@ Respond in JSON:
 ### Specific date
 Request list of parties on specific **date** `2.6.2017`:
 ````
-http://dev.nejcribic.com/veselice_api/myApi.php?getAll/date/{$date}
+http://api.nejcribic.com/veselica/myApi.php?getAll/date/{$date}&appid={$apikey}
 ````
 Respond in JSON:
 ````
@@ -115,7 +115,7 @@ Respond in JSON:
 ### Specific party
 Request info about specific party with **href** `/page/veselice-2017?Jezica_Ljubljana-Skupina_Gadi;block_id=4797;subcmd=view_event;event_id=3787`:
 ````
-http://dev.nejcribic.com/veselice_api/myApi.php?moreInfo/page/veselice-2017?Jezica_Ljubljana-Skupina_Gadi;block_id=4797;subcmd=view_event;event_id=3787
+http://api.nejcribic.com/veselica/myApi.php?moreInfo/page/veselice-2017?Jezica_Ljubljana-Skupina_Gadi;block_id=4797;subcmd=view_event;event_id=3787&&appid={$apikey}
 ````
 Respond in JSON:
 ````
