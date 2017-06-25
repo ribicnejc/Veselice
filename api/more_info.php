@@ -108,8 +108,9 @@ function moreInfo($link)
     $tmp["date"] = $date;
     $tmp["actors"] = $actors;
     $tmp["location"] = $place;
-    $tmp["region"] = $region;
-    $tmp["about"] = $about;
+    $tmp["region"] = str_replace("  [Več iz te regije] ", "",substr($region, 1));
+    $tmp["region"] = str_replace("Regija: ", "", $tmp["region"]);
+    $tmp["about"] = substr($about, 1);
     $tmp["videos"] = $videos;
     $tmp = (object)$tmp;
 
